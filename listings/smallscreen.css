@@ -230,6 +230,7 @@ background-color: #F46530;
   .sticky{
     display:block;
     background-color: white;
+    color:#16191B;
     position: fixed;
     transform: rotate(-90deg);
     right: -50px;
