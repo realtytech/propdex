@@ -272,3 +272,7 @@ height: 15vh;
           padding: 0px 15px 25px 15px;
       }
   }
+
+  body{
+    overflow-x: hidden;
+  }
