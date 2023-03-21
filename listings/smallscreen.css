@@ -47,8 +47,9 @@
 }
 
 .section-header{
-    font-size: 35px;
+    font-size: 28px;
     padding: 0 15vw;
+    padding-top: 5vw;
     text-align: center;
    
 }
@@ -77,6 +78,7 @@ i{
         display: inline !important;
         height: 100% !important;
         width: auto !important;
+        object-fit: contain;
     }
 
     .plan-slide span{
@@ -195,7 +197,7 @@ i{
   
   .plan-slide img {
     /* width: auto !important; */
-    width: 100% !important;
+    width: 80% !important;
   }
   .project-name{
     line-height: 25px;
@@ -230,7 +232,7 @@ background-color: #F46530;
     background-color: white;
     position: fixed;
     transform: rotate(-90deg);
-    right: -62px;
+    right: -50px;
     top: 174px;
     z-index: 999;
     padding: 0.3rem;
@@ -238,4 +240,16 @@ border-radius: 5px;
 border: 1px solid #333;
 cursor: pointer;
     
+  }
+
+
+/* style.css | http://127.0.0.1:5500/propdex/css/style.css */
+
+.footer {
+    /* height: 70vh; */
+    max-height: 70vh;
+  }
+  
+  .container-fluid{
+    overflow:hidden;
   }

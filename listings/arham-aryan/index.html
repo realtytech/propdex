@@ -1,13 +1,526 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
+    <title>Propdex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/carousel.css" rel="stylesheet">
+    <link href="../../css/listings.css" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="../widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 1199px)" href="../smallscreen.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/fontawesome.min.js" integrity="sha512-36dJpwdEm9DCm3k6J0NZCbjf8iVMEP/uytbvaiOKECYnbCaGODuR4HSj9JFPpUqY98lc2Dpn7LpyPsuadLvTyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
+
 <body>
-    <h1>Aryan</h1>
+    <div class="desktop-only">
+        <div class="container-fluid">
+            <div class="header row">
+                <div class="title branding text-center primary-color-text">
+                    propdex.
+                </div>
+            </div>
+        <div class="listings row">
+            <div class="hero row">
+                <div class="col-md-7">
+                    <img  src="../../assets/images/chidakash/interiors.jpg" alt="" srcset="">
+                </div>
+                <div class="col-md-5 elevation">
+                    <img class="" src="../../assets/images/chidakash/elevation.png" alt="">
+                </div>
+            </div>
+            <div class="project-name text-center">
+                Arham <span class="tagline secondary-color-text">Arya</span>
+            </div>
+            <div class="about-project section">
+                <p>
+                    Brought to life by one of Mumbai's most reputable teams
+& developers, Arham Arya features spacious and wellplanned
+
+2, 3 & 4 bedroom residences coupled with a
+luxurious living experience. Located in the serene suburb
+of Chembur, it provides an escape from the city hustle
+whilst simultaneously ensuring comfort & ease of travel.
+With a brilliant combination of modern amenities,
+exquisite interiors and open spaces, Arham Arya provides
+something for everyone in the family, establishing it as
+the newest address for prestigious living.
+                </p>
+            </div>
+            <div class="project-highlight section">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="topic">Developer</div>
+                        <div class="value">Mahavir Group</div>
+                        <div class="spacer"></div>
+                        <div class="topic">Registration</div>
+                        <div class="value">MahaRERA</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="topic">Configuration</div>
+                        <div class="value"> 3 / 4 / 5 BHK</div>
+                        <div class="spacer"></div>
+                        <div class="topic">Starting Price</div>
+                        <div class="value">INR 3.4 CR</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="topic">Neighbourhood</div>
+                        <div class="value">Chembur (E)</div>
+                        <div class="spacer"></div>
+                        <div class="topic">Possession</div>
+                        <div class="value">Dec 2023</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section row hide">
+                <div class="section-header">                    
+                        Highlights
+                        <hr>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis iste consequatur sit aliquid ad,
+                    sapiente similique? Fugit, praesentium totam. Asperiores exercitationem ducimus vel tenetur mollitia
+                    iure culpa eum inventore doloremque.
+                </p>
+            </div>
+            <div class="section row hide">
+                <div class="section-header">
+                    Amenities
+                    <hr>
+
+                </div>
+                <p>
+                    <ul>                        
+                    <li> Well ventilated apartments </li>
+                    <li> Premium marble flooring</li>
+                        <li> Video phone & intercom systems</li>
+                            <li> PoP with acrylic/velvet painted walls</li>
+                            <li>Provision of split air-conditioners</li>
+                            <li>Vaastu compliant residences</li>
+                            <li>Technology-enabled homes</li>
+                            <li>Fire retardant main door and safety doors</li>
+                            <li>Noise reducing sliding windows</li>
+                    
+                </ul>
+                </p>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    Floor Plans
+                    <hr>
+
+                </div>
+                <p>
+                    <div id="plans-slider" class="owl-carousel">
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                CLASSIC
+                                2  B H K
+                                7 7 9  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/classic.png" alt="">
+                           
+                            
+                        </div>                    
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                PREMIERE I
+                                3  B H K
+                                1 0 4 3  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/premiere-1.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                PREMIERE II
+                                3  B H K
+                                1 0 4 8  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/premiere-2.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                PREMIERE III
+                                3  B H K
+                                 1 1 9 7  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/premiere-3.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                GRANDE I
+                                4  B H K
+                                1 7 6 4  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/grande-1.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                GRANDE II
+                                4  B H K
+                                 1 9 4 3 - 1 9 7 7  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/grande-2.png" alt="">
+                        </div>   
+                        
+           
+                       
+                     
+                
+                        
+                      </div>
+                </p>
+            </div>
+            <div class="section">
+                <div class="section-header">
+                    Location
+                    <hr>
+
+                </div>
+                <p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120683.42572317684!2d72.82339974236893!3d19.048032793493775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8a936de4a8b%3A0x80ab7b777ab7335c!2sRamakrishna%20Chemburkar%20Marg%2C%20Borla%2C%20Union%20Park%2C%20Chembur%2C%20Mumbai%2C%20Maharashtra%20400071!5e0!3m2!1sen!2sin!4v1679412418019!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </p>
+            </div>
+            <div class="text-center cta">
+                <button class="secondary-color pastel-3-color-text">
+                    I'm Interested </button>
+                
+            </div>       
+
+
+        </div>
+
+
+        <div class="footer pastel-2-color pt-5 row">
+            <div class="row">
+                <div class="col-md-4 p-3">
+                    <div class="header branding text-left">
+                        propdex.
+                    </div>
+                    <div class="cta px-4">
+                        <button class="secondary-color pastel-3-color-text">Sell with us</button>
+                        <button>List with us</button>
+                    </div>
+                </div>
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-5">
+                    <div class="header">
+                        <span class="tagline">
+                            Stay
+                        </span> connected
+                    </div>
+                    <div class="form">
+                        <div class="container my-5">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-9">
+                                    <!-- <h1 class="mb-3">Contact Us</h1> -->
+                                    <form>
+                                        <div class="row g-3">
+                                            <div class="col-md-6">
+                                                <label for="your-name" class="form-label">Your Name</label>
+                                                <input type="text" class="form-control" id="your-name" name="your-name"
+                                                    required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="your-surname" class="form-label">Your Surname</label>
+                                                <input type="text" class="form-control" id="your-surname"
+                                                    name="your-surname" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="your-email" class="form-label">Your Email</label>
+                                                <input type="email" class="form-control" id="your-email"
+                                                    name="your-email" required>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label for="your-subject" class="form-label">Your Message</label>
+                                                <input type="text" class="form-control" id="your-subject"
+                                                    name="your-subject">
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <button data-res="<?php echo $sum; ?>" type="submit"
+                                                            class="btn btn-dark w-100 fw-bold">Send</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="mobile-only">
+        <div class="container-fluid">
+            <div class="header row">
+                <div class="title branding text-center primary-color-text">
+                    propdex.
+                </div>
+            </div>
+
+            <div class="hero-image row">
+                <img src="../../assets/images/arya/elevation.jpg" alt="" srcset="">
+            </div>
+            <div class="project-name text-center">
+                Arham <br>
+                <span class="tagline secondary-color-text">Arya</span>
+        </div>
+            <div class="about-project section">
+                <p>
+                    Brought to life by one of Mumbai's most reputable teams
+& developers, Arham Arya features spacious and wellplanned
+
+2, 3 & 4 bedroom residences coupled with a
+luxurious living experience. Located in the serene suburb
+of Chembur, it provides an escape from the city hustle
+whilst simultaneously ensuring comfort & ease of travel.
+With a brilliant combination of modern amenities,
+exquisite interiors and open spaces, Arham Arya provides
+something for everyone in the family, establishing it as
+the newest address for prestigious living.
+                </p>
+            </div>
+            <div class="project-highlight section">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="topic">Developer</div>
+                        <div class="value">Mahavir Group</div>
+                        <div class="spacer"></div>
+                        <div class="topic">Registration</div>
+                        <div class="value">MahaRERA</div> 
+                        <div class="topic">Configuration</div>
+                        <div class="value"> 3 / 4 / 5 BHK</div>
+                    </div>
+                    <div class="col-6">
+                        <div class="topic">Neighbourhood</div>
+                        <div class="value">Chembur (E)</div>
+                        <div class="spacer"></div>
+                        <div class="topic">Possession</div>
+                        <div class="value">Dec 2023</div>
+                        <div class="spacer"></div>
+                        <div class="topic">Starting Price</div>
+                        <div class="value">INR 3.4 CR</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row hide">
+                <div class="section-header">                    
+                        Highlights
+                        <hr>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis iste consequatur sit aliquid ad,
+                    sapiente similique? Fugit, praesentium totam. Asperiores exercitationem ducimus vel tenetur mollitia
+                    iure culpa eum inventore doloremque.
+                </p>
+            </div>
+            <div id="amenities" class="row ">
+                <div class="section-header col-12">
+                    Amenities
+                    <hr>
+
+                </div>
+                <div class="col-12 text-center">
+                    <span> Well ventilated apartments </span>
+                    <span> Premium marble flooring</span>
+                        <span> Video phone & intercom systems</span>
+                        <span>Noise reducing sliding windows</span>
+                            
+                            <span>Vaastu compspanant residences</span>
+                            <span>Technology-enabled homes</span>
+                            <span> PoP with acryspanc/velvet painted walls</span>
+                            <span>Fire retardant main door and safety doors</span>
+                            <span>Provision of spspant air-conditioners</span>
+                            
+                </div>
+                    
+                    
+            </div>
+            <div class="">
+                <div class="section-header">
+                    Floor Plans
+                    <hr>
+
+                </div>
+                <p>
+                    <div id="plans-slider-m" class="owl-carousel">
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                CLASSIC
+                                2  B H K
+                                7 7 9  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/classic.png" alt="">
+                           
+                            
+                        </div>                    
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                PREMIERE I
+                                3  B H K
+                                1 0 4 3  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/premiere-1.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                PREMIERE II
+                                3  B H K
+                                1 0 4 8  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/premiere-2.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                PREMIERE III
+                                3  B H K
+                                 1 1 9 7  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/premiere-3.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                GRANDE I
+                                4  B H K
+                                1 7 6 4  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/grande-1.png" alt="">
+                        </div>   
+                        <div class="plan-slide">
+                            <span>ARHAM
+                                GRANDE II
+                                4  B H K
+                                 1 9 4 3 - 1 9 7 7  S Q . F T .</span>  <br>
+                            <img src="../../assets/images/arya/grande-2.png" alt="">
+                        </div>   
+                        
+           
+                       
+                     
+                
+                        
+                      </div>
+                </p>
+            </div>
+            <div class="text-center">
+                <div class="section-header">
+                    Location
+                    <hr>
+
+                </div>
+                <div class="text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3771.2337399113703!2d72.8972679!3d19.0534581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c7b775f22ce3%3A0xd0788157cca06913!2sCECIL!5e0!3m2!1sen!2sin!4v1679418668436!5m2!1sen!2sin" width="300" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </div>
+
+            </div>
+            <div class="text-center cta">
+                <button class="secondary-color pastel-3-color-text">
+                    I'm Interested </button>
+                
+            </div>    
+            <div class="footer pastel-2-color pt-5 row">
+                    <div class="col-md-5">
+                        <div class="header">
+                            <span class="tagline">
+                                Stay
+                            </span> connected
+                        </div>
+                        <div class="form">
+                            <div class="container my-5">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-9">
+                                        <!-- <h1 class="mb-3">Contact Us</h1> -->
+                                        <form>
+                                            <div class="row g-3">
+                                                <div class="col-md-6">
+                                                    <label for="your-name" class="form-label">Your Name</label>
+                                                    <input type="text" class="form-control" id="your-name" name="your-name"
+                                                        required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="your-surname" class="form-label">Your Surname</label>
+                                                    <input type="text" class="form-control" id="your-surname"
+                                                        name="your-surname" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="your-email" class="form-label">Your Email</label>
+                                                    <input type="email" class="form-control" id="your-email"
+                                                        name="your-email" required>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <label for="your-subject" class="form-label">Your Message</label>
+                                                    <input type="text" class="form-control" id="your-subject"
+                                                        name="your-subject">
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <button data-res="<?php echo $sum; ?>" type="submit"
+                                                                class="btn btn-dark w-100 fw-bold">Send</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+            <div class="header row">
+                <div class="title branding text-center primary-color-text">
+                    propdex.
+                </div>
+            </div>
+
+            <span class="sticky">Download Brochure</span>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script>
+
+        $(document).ready(function () {
+            $("#plans-slider").owlCarousel({
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsMobile: [600, 1],
+                navigation: true,
+                navigationText: ["", ""],
+                pagination: true,
+                autoPlay: true
+            });
+            $("#plans-slider-m").owlCarousel({
+                items: 1,
+                itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsMobile: [600, 1],
+                navigation: true,
+                navigationText: ["<", ">"],
+                pagination: true,
+                autoPlay: true
+            });
+        });
+    </script>
 </body>
+
 </html>
