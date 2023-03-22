@@ -246,10 +246,7 @@ cursor: pointer;
 
 /* style.css | http://127.0.0.1:5500/propdex/css/style.css */
 
-/* .footer {
-    /* height: 70vh; */
-    max-height: 70vh;
-  } */
+
   
   .container-fluid{
     overflow:hidden;
@@ -266,3 +263,7 @@ cursor: pointer;
     max-height: 40vh;
   }
   
+  #leadForm-popup input{
+    margin: 0.5rem 0;
+  }
+
