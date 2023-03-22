@@ -135,7 +135,8 @@ height: 15vh;
 
 
 .footer{
-    height: 70vh;
+    /* height: 70vh; */
     margin-top: 2rem;
+    padding: 1rem 0;
   }
 
