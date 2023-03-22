@@ -254,3 +254,15 @@ cursor: pointer;
   .container-fluid{
     overflow:hidden;
   }
+
+
+/* Element | http://127.0.0.1:5500/propdex/listings/arham-mourya/ */
+
+#projects-slider-m .project-slide
+ {
+    margin: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-height: 40vh;
+  }
+  

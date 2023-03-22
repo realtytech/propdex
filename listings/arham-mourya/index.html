@@ -275,6 +275,37 @@
                     I'm Interested </button>
                 
             </div>    
+            <hr>
+            <div class="similar-projects row">
+                <div id="projects-slider-m" class="owl-carousel">
+                    <div class="project-slide">
+                      <div class="project-img">
+                        <img src="../../assets/images/arya/elevation.jpg" alt="">
+                      </div>
+                      <div class="post-content">
+                        <h3 class="post-title">
+                          <a href="#">Arham Arya</a>
+                        </h3>
+                        <p class="post-description">Chembur (E)</p>
+                        <a href="./listings/arham-arya/" class="read-more">read more</a>
+                      </div>
+                    </div>
+                    
+                    <div class="project-slide">
+                        <div class="project-img">
+                          <img src="../../assets/images/aryan/elevation.jpg" alt="">
+                        </div>
+                        <div class="post-content">
+                          <h3 class="post-title">
+                            <a href="#">Arham Aryan</a>
+                          </h3>
+                          <p class="post-description">Chembur (E)</p>
+                          <a href="./listings/arham-aryan/" class="read-more">read more</a>
+                        </div>
+                      </div>
+
+                    </div>
+            </div>
             <div class="footer pastel-2-color pt-5 row">
                     <div class="col-md-5">
                         <div class="header">
@@ -332,7 +363,7 @@
                 </div>
             </div>
 
-            <a href="../../assets/brochures/Arham Mourya.pdf" target="_blank" rel="noopener noreferrer"><span class="sticky">Download Brochure</span></a>        </div>
+            <a href="../../assets/brochures/Arham Mourya Brochure_Final.pdf" target="_blank" rel="noopener noreferrer"><span class="sticky">Download Brochure</span></a>        </div>
 
     </div>
 
@@ -351,6 +382,17 @@
             $("#plans-slider-m").owlCarousel({
                 items: 1,
                 itemsDesktop: [1199, 1],
+                itemsDesktopSmall: [980, 1],
+                itemsMobile: [600, 1],
+                navigation: true,
+                navigationText: ["<", ">"],
+                pagination: true,
+                autoPlay: true
+            });
+
+            $("#projects-slider").owlCarousel({
+                items: 2,
+                itemsDesktop: [1199, 2],
                 itemsDesktopSmall: [980, 1],
                 itemsMobile: [600, 1],
                 navigation: true,
