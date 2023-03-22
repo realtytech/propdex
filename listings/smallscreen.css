@@ -206,7 +206,7 @@ i{
 
 /* Element | http://127.0.0.1:5500/propdex/listings/arham-arya/ */
 
-div.about-project:nth-child(4) > p:nth-child(1) {
+div.about-project p {
     text-align: justify;
     line-height: 21px;
   }
