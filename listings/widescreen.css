@@ -113,3 +113,13 @@ i{
     margin: 0rem 15rem;
   }
   
+.coming-soon {
+    width: 80vw;
+    height: 70vh;
+    background-position: center;
+    border-radius: 2rem;
+    border: 1px solid #F46530;
+    padding: 0 2vw;
+    margin: 0 8vw;
+    background-image: url('../assets/images/Coming-Soon.png');
+}
